@@ -28,7 +28,16 @@
     <link rel="stylesheet" href="assets/css/slick.css" />
     <link rel="stylesheet" href="assets/css/nice-select.css" />
     <link rel="stylesheet" href="assets/css/style.css" />
+    <script>
+      function copyToClipboard() {
+        const textToCopy = "209 320 5440";
+        navigator.clipboard.writeText(textToCopy).then(() => {
+          alert('Phone Number Copied to Clipboard!');
+        });
+      }
+    </script>
   </head>
+  
   <body>
     <!--? Preloader Start -->
     <div id="preloader-active">
@@ -54,16 +63,20 @@
                 >
                   <div class="header-info-left">
                     <ul>
+                      <img onclick="copyToClipboard()" style="margin-bottom: 5px; cursor: pointer;" width="15px" height="15px"  src="/assets/img/logo/icons8-copy.png" />
+
                       <li>
                         <a style="cursor: pointer;" target="_blank"
                         rel="noopener noreferrer"
-                        href='https://api.whatsapp.com/send?phone=2093205440'>
+                        
+                        href="tel:2093205440"
+                        >
                           Phone: 209 320 5440</li>
                         </a>
                       <li>
                         Email:
-                        <a onclick="location.href='mailto:swift.dispatchhub@gmail.com';" style="cursor: pointer;" >
-                          swift.dispatchhub@gmail.com
+                        <a onclick="location.href='mailto:tony.swiftdispatch@gmail.com';" style="cursor: pointer;" >
+                          tony.swiftdispatch@gmail.com
                         </a>
                          </li>
                     </ul>
