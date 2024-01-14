@@ -2531,6 +2531,14 @@ hero-btn {
     width: 100%;
   }
 }
+
+/* changing here */
+/* @media (max-width: 575px) {
+  .about-low-area .about-img .contact-font-img img {
+    width: 250px;
+  }
+} */
+
 .about-low-area .about-img .about-back-img {
   position: absolute;
   top: -45px;
@@ -2553,7 +2561,7 @@ hero-btn {
   }
 }
 .our-info-area {
-  background: #f9f9f9;
+  background: gainsboro;
 }
 .our-info-area .single-info {
   display: flex;
